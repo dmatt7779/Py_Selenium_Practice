@@ -1,0 +1,2 @@
+client: ck_bd642844880b48552d600e3393677a4b2fc50d7e
+secret clinet: cs_3a057cefb8955f4644a69a9625b925397defcfac

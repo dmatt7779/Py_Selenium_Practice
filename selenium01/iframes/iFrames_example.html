@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- CSS only -->
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <title>iFrames Demo Page</title>
+</head>
+
+
+<body>
+    <div style="text-align: center;">
+        <h1 style="color:#005aff;">Sample Page to Demo <strong><u>iFrames</u></strong></h1>
+    </div>
+<br>
+
+<div id="iFrames" style="margin-left:25px;">
+
+    <div style="margin:25px;">
+        <button onclick="alert('Just Clicked Outside iFrame')" class="btn btn-info" id="btnOutFrame">
+            I am a button outside an iFrame
+        </button>
+    </div>
+    <div style="margin:25px;">
+        <iframe id="myFrame1" src="to_be_in_frame.html" ></iframe>
+    </div>
+
+    <div style="margin:25px;">
+        <p>Image below is from <strong>'demostore.supersqa.com'</strong> and it is inside an <strong>iFrame</strong></p>
+        <iframe id="myFrame2" src="http://demostore.supersqa.com/product/beanie-with-logo/" height="500px" width="500px"></iframe>
+    </div>
+</div> <!-- iFrames -->
+
+<br>
+<br>
+
+</body>
+</html>
